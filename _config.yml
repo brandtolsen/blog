@@ -1,0 +1,29 @@
+---
+title: My blog
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+email: daniel@brandtolsen.com
+description: A blog about my sideprojects.
+baseurl: 
+url: 
+github_username: brandtolsen
+theme: minima
+plugins:
+- jekyll-feed
